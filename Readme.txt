@@ -1,0 +1,1 @@
+This webpage simply displays a random quote from Forbes' list of inspirational quotes and allows you to tweet the quote. 

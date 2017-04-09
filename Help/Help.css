@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+* {
+
+}
+
+body {
+    background-color: #FF7F66;
+    min-width: 850px;
+    
+}
+
+h1 {
+
+}
+
+p {
+
+}
+
+button {
+
+}
+
+.heading-area {
+    background-color: #2185C5;
+    margin: 0 auto; 
+    border-radius: 4px;
+    width: 800px;
+}
+
+h1.main-heading {
+    padding: 35px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.paragraph-area {
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background-color: #7ECEFD;
+    
+}
+
+.main-paragraph {
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.button-area {
+    text-align: center;
+}
+
+.new-quote-button {
+    background-color: #3E454C;
+    border: 0px;
+    height: 70px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+}
+
+.new-quote-button:hover {
+    background-color: #FF7F66;
+    border: 2px solid white;
+    color: white;
+}
+
+.quote-area {
+    width: 800px;
+    height: auto;
+    margin: 20 auto;
+    border-radius: 6px;
+    background-color: #FFF6E5;
+}
+
+.quoteContainer {
+    padding: 20px;
+}
+
+#quote {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+#author {
+    font-style: italic;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}

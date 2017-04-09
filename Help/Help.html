@@ -1,0 +1,50 @@
+<html>
+    <head>
+        
+        <title>
+            Random Quote Machine
+        </title>
+        
+        <link rel = 'stylesheet' href = 'Help.css'>
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+        <script type='text/javascript' src='Help.js'></script>
+        
+    </head>
+    <body>
+        <div class = 'heading-area'>
+            <h1 class = 'main-heading'>Athul's Random Quote Machine</h1>
+        </div>
+        <div class = 'paragraph-area'>
+            <p class = 'main-paragraph'>These are some quotes from the Forbes list of inspirational quotes. I hope reading some of these quotes gives you inspiration. Click the button to randomly view any of these quotes.</p>
+        </div>
+        <div class = 'button-area'>
+            <button class = 'new-quote-button'>New Quote</button>
+        </div>
+        <div class = 'quote-area'>
+            <div class = 'quoteContainer'>
+                <p id = 'quote'></p>
+                <p id = 'author'></p>
+                <div id = 'twitterContainer'></div>
+            </div>
+        </div>
+        
+    </body>
+    
+    <script>
+    window.twttr = (function(d, s, id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = {
+            _e: [],
+            ready: function(f) {
+                t._e.push(f)
+            }
+        });
+    }(document, "script", "twitter-wjs"));
+</script>
+    
+</html>
